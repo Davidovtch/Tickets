@@ -1,0 +1,16 @@
+main {
+    min-width: max-content;
+    min-height: max-content;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.card {
+    background-color: #f5f5f5;
+}
