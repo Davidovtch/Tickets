@@ -8,17 +8,20 @@
     </head>
     <body>
         <main>
-            <div class="center">
+            <div class="container">
                 <div class="card">
                     <h1>Open a Ticket</h1>
                     <form>
                         <div>
-                            <input id="email" type="email" placeholder="Type your email">
-                            <label for="email">Email</label>
+                            <span class="block"><label for="email">Email</label></span>
+                            <input id="email" type="email" />
                         </div>
                         <div>
-                            <input id="name" type="text" placeholder="Type your name" >
-                            <label for="name">Name</label>
+                            <span class="block"><label for="name">Name</label></span>
+                            <input id="name" type="text" />
+                        </div>
+                        <div class="center">
+                            <input type="submit" value="Submit" />
                         </div>
                     </form>
                 </div>
